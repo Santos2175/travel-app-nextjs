@@ -34,7 +34,7 @@ const Nav = ({ openNav }: NavProps) => {
       <div className='h-full flex items-center justify-between w-[90%] xl:w-[80%] mx-auto'>
         {/* LOGO */}
         <div className='flex items-center space-x-2'>
-          <div className='flex items-center justify-center h-10 w-10 bg-rose-500 rounded-full'>
+          <div className='flex items-center justify-center h-10 w-10 bg-orange-600 rounded-full'>
             <TbAirBalloon className='h-6 w-6 text-white' />
           </div>
           <h1 className='text:xl md:text-2xl text-white uppercase font-bold'>
