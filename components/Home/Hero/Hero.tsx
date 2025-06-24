@@ -21,7 +21,7 @@ const Hero = () => {
       {/* TEXT CONTENT */}
       <div className='absolute z-[100] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full'>
         <div className='flex items-center justify-center flex-col h-full w-full'>
-          <div>
+          <div data-aos='fade-up'>
             <h1 className='text-[25px] mb-4 md:mb-0 text-center md:text-[35px] lg:text-[45px] tracking-[0.5rem] md:tracking-[0.7rem] text-white font-bold uppercase'>
               Lets Enjoy the nature
             </h1>
