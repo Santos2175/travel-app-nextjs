@@ -1,4 +1,4 @@
-// STATIC DATA
+// DESTINATION DATA
 export const DESTINATION_DATA = [
   {
     id: 1,
@@ -50,6 +50,7 @@ export const DESTINATION_DATA = [
   },
 ];
 
+// HOTELS DATA
 export const HOTELS_DATA = [
   {
     id: 1,
@@ -89,6 +90,7 @@ export const HOTELS_DATA = [
   },
 ];
 
+// TOURS DATA
 export const TOURS_DATA = [
   {
     id: 1,
@@ -136,6 +138,7 @@ export const TOURS_DATA = [
   },
 ];
 
+// REVIEW DATA
 export const REVIEW_DATA = [
   {
     id: 1,

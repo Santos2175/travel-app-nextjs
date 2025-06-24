@@ -4,7 +4,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='relative w-full h-[120vh] sm:h-[100vh]'>
+    <section id='hero' className='relative w-full h-[120vh] sm:h-[100vh]'>
       {/* OVERLAY */}
       <div className='absolute top-0 left-0 h-full w-full bg-gray-800 opacity-60' />
 
@@ -41,7 +41,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
