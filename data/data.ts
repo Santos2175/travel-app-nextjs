@@ -139,7 +139,7 @@ export const TOURS_DATA = [
 ];
 
 // REVIEW DATA
-export const REVIEW_DATA = [
+export const CLIENT_REVIEW_DATA = [
   {
     id: 1,
     name: 'John Doe',

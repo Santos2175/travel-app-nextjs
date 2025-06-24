@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeading from '../Helper/SectionHeading';
+import SectionHeading from '../../Helper/SectionHeading';
 import { HOTELS_DATA } from '@/data/data';
 import HotelCard from './HotelCard';
 
