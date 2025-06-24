@@ -219,3 +219,31 @@ export const WHY_CHOOSE_DATA = [
     description: 'Lorem ispusldf slfdle sjdlkf lskdf',
   },
 ];
+
+// BLOG DATA
+export const BLOG_DATA = [
+  {
+    id: 1,
+    title: 'Top 10 place to visit in Austrailia',
+    image: '/images/n1.jpg',
+    date: '15 November 2024',
+  },
+  {
+    id: 2,
+    title: 'Top 10 place to visit in Switzerland',
+    image: '/images/n2.jpg',
+    date: '10 January 2025',
+  },
+  {
+    id: 3,
+    title: 'Top 10 place to visit in Japan',
+    image: '/images/n3.jpg',
+    date: '20 February 2025',
+  },
+  {
+    id: 4,
+    title: 'Top 10 place to visit in France',
+    image: '/images/n4.jpg',
+    date: '11 June 2025',
+  },
+];
