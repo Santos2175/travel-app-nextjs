@@ -197,3 +197,25 @@ export const REVIEW_DATA = [
     image: '/images/u2.jpg',
   },
 ];
+
+// WHY CHOOSE DATA
+export const WHY_CHOOSE_DATA = [
+  {
+    id: 1,
+    image: '/images/c1.svg',
+    title: 'Best Price Guarantee',
+    description: 'Lorem ispusldf slfdle sjdlkf lskdf',
+  },
+  {
+    id: 2,
+    image: '/images/c2.svg',
+    title: 'Easy & Quick Booking',
+    description: 'Lorem ispusldf slfdle sjdlkf lskdf',
+  },
+  {
+    id: 3,
+    image: '/images/c3.svg',
+    title: 'Customer Care 24/7',
+    description: 'Lorem ispusldf slfdle sjdlkf lskdf',
+  },
+];
