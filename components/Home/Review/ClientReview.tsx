@@ -10,7 +10,7 @@ const ClientReview = () => {
   return (
     <section
       id='review'
-      className='py-20 flex items-center justify-center flex-col bg-orange-900'>
+      className='py-20 flex items-center justify-center flex-col bg-orange-800'>
       <div className='w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-10'>
         {/* TEXT CONTENT */}
         <div>
