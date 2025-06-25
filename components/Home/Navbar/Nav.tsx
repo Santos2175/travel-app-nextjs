@@ -33,14 +33,16 @@ const Nav = ({ openNav }: NavProps) => {
       } transition-all duration-200 h-[12vh] z-[1000] w-full fixed`}>
       <div className='h-full flex items-center justify-between w-[90%] xl:w-[80%] mx-auto'>
         {/* LOGO */}
-        <div className='flex items-center space-x-2'>
-          <div className='flex items-center justify-center h-10 w-10 bg-orange-600 rounded-full'>
-            <TbAirBalloon className='h-6 w-6 text-white' />
+        <Link href={'#'} scroll>
+          <div className='flex items-center space-x-2'>
+            <div className='flex items-center justify-center h-10 w-10 bg-orange-600 rounded-full'>
+              <TbAirBalloon className='h-6 w-6 text-white' />
+            </div>
+            <h1 className='text:xl md:text-2xl text-white uppercase font-bold'>
+              WanderNest
+            </h1>
           </div>
-          <h1 className='text:xl md:text-2xl text-white uppercase font-bold'>
-            WanderNest
-          </h1>
-        </div>
+        </Link>
 
         {/* NAVLINKS */}
         <div className='hidden lg:flex items-center space-x-10'>
@@ -55,9 +57,11 @@ const Nav = ({ openNav }: NavProps) => {
 
         {/* BUTTON */}
         <div className='flex items-center space-x-4'>
-          <button className='md:px-12 md:py-2.5 px-4 py-2 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg cursor-pointer'>
+          <Link
+            href={'#contact'}
+            className='md:px-12 md:py-2.5 px-4 py-2 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg cursor-pointer'>
             Book Now
-          </button>
+          </Link>
 
           {/* BURGER MENU */}
           <HiBars3BottomRight

@@ -5,7 +5,7 @@ import BlogCard from './BlogCard';
 
 const Blog = () => {
   return (
-    <section className='py-20'>
+    <section id='blog' className='py-20'>
       {/* SECTION HEADING */}
       <SectionHeading heading='Exciting Travel Blogs For You' />
 

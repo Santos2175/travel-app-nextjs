@@ -4,12 +4,12 @@ import React, { useEffect } from 'react';
 import Hero from './Hero/Hero';
 import Destination from './Destination/Destination';
 import Hotel from './Hotel/Hotel';
-import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 import ClientReview from './Review/ClientReview';
 import Blog from './Blogs/Blog';
 import Newsletter from './Newsletter/Newsletter';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 
 const Home = () => {
   useEffect(() => {

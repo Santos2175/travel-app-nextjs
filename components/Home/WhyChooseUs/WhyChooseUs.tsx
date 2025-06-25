@@ -1,7 +1,7 @@
 import React from 'react';
-import SectionHeading from '../Helper/SectionHeading';
 import { WHY_CHOOSE_DATA } from '@/data/data';
 import WhyChooseUsCard from './WhyChooseUsCard';
+import SectionHeading from '@/components/Helper/SectionHeading';
 
 const WhyChooseUs = () => {
   return (
