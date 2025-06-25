@@ -12,7 +12,7 @@ const Newsletter = () => {
         Your Travel Journey Starts Here
       </h2>
       <p className='mt-3 text-white text-xs sm:text-sm'>
-        Sign Up and we'll send the best deals to you
+        Sign Up and we&apos;ll send the best deals to you
       </p>
 
       {/* SUBSCRIPTION INPUT AND BUTTON */}
